@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background-color: #002D13;
+    background-color: #067bc2;
 }
 
 nav{
@@ -30,41 +30,41 @@ nav ul {
     display: flex;
     justify-content: space-between;
     width: 50%;
+    background-color: #84bcda;
 }
 
 nav a {
     text-decoration: none;
-    color: #FFC700;
+    color: black;
     overflow: hidden;
 }
 
-.marker{
-    height: 2px;
-    margin-top: -15px;
-    width: 50%;
-    background-color: whitesmoke;
-    transition: 0.5s;
-    border-radius: 4px;
+nav a:hover{
+    border-bottom: 2px solid black;
 }
+
 
 .name{
     position: absolute;
     left: 8%;
     top:36%;
-    font-size: 3vw;
+    padding-right: 50px;
+    font-size: 3.5vw;
     font-family: 'Roboto', sans-serif;
     color: rgb(247, 243, 243);
 }
 
 .title{
     position: absolute;
-    max-width: 600px;
+    width: 600px;
+    min-width: 300px;
     left: 15%;
     top: 46%;
+    padding-right: 50px;
 }
 
 .title h1{
-    color: #FFC700;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 3vw  ;
 }
@@ -77,18 +77,42 @@ nav a {
 
 .mainImage{
     position: absolute;
-    left: 850px;
-    top: 80px;
+    left: 65%;
+    top:15%;
     z-index: 3;
 }
 
 .filler{
     height:600px ;
     width: 400px;
-    background-color: #FFC700;
+    background-color: #033e63;
     position: absolute;
-    left: 1000px;
-    top:150px ;
+    left: 61.5%;
+    top:80px ;
 
+}
+
+@media screen and (max-width: 1184px){
+    .title{
+        position: absolute;
+        left: 5%;
+    }
+
+    .name{
+        position: absolute;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 935px){
+    .title{
+        position:absolute;
+        left: 2%;
+        width: 300px;
+    }
+    .name{
+        position: absolute;
+        left: 2%;
+    }
 }
 
