@@ -40,9 +40,9 @@ nav a {
 
 .name{
     position: absolute;
-    left: 120px;
-    top: 280px;
-    font-size: 3em;
+    left: 8%;
+    top:36%;
+    font-size: 3vw;
     font-family: 'Roboto', sans-serif;
     color: rgb(247, 243, 243);
 }
@@ -50,19 +50,19 @@ nav a {
 .title{
     position: absolute;
     max-width: 600px;
-    left: 200px;
-    top: 370px;
+    left: 15%;
+    top: 46%;
 }
 
 .title h1{
     color: #FFC700;
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5em;
+    font-size: 3vw  ;
 }
 
 .title p {
     color: rgb(247, 243, 243);
-    font-size: 1.5em;
+    font-size: 1.5vw ;
     font-family: 'Amiri', serif;
 }
 
