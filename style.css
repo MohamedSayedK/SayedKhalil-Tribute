@@ -310,3 +310,14 @@ top: calc(50% - 75px);
        justify-content: center;
        align-items: center;
    }
+
+   .positions{
+    text-align: left;
+   }
+
+   .positions ul{
+      max-width: 1000px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+      line-height: 1.6;
+   }
