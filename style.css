@@ -321,3 +321,7 @@ top: calc(50% - 75px);
       text-align: left;
       line-height: 1.6;
    }
+
+   .positions .hr{
+     margin-bottom: 50px;
+   }
