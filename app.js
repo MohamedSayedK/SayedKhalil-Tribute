@@ -1,15 +1,6 @@
-var marker = document.querySelector('.marker');
-var item = document.querySelectorAll('nav a');
+$(document).ready(function(){
+    $("#dt").css
+});
 
-function indicator(x) {
+document.addEventListener('DOMContentLoaded',init);
 
-    marker.style.left = x.offsetLeft+"px";
-    marker.style.width = e.offsetWidth+"px";
-    
-}
-
-item.forEach(Link =>{
-    link.addEventListener('click',(x) => {
-        indicator(x.target);
-    })
-})

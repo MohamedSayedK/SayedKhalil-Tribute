@@ -114,20 +114,33 @@ html{
       text-align: left;
   }
 
+  .educationContainerMain{
+    min-height: 100vh;
+
+  }
+
   .educationContainer{
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: -230px;
+      margin-top: -100px;
   }
 
   /* Testing grounds */
+
+
 
 .educationContainerTest{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+}
+
+.educationTitle{
+  font-family: 'Amiri', serif;
+  margin-top: 50px;
+  text-align: center;
+
 }
 
 .containerTest{
@@ -200,10 +213,11 @@ top: calc(50% - 75px);
 }
 
 @media screen and (max-width: 1072px){
-  .educationContainerTest .containerTest .card .content p {
-    font-size: 20px;
+  .educationContainerTest .containerTest .card:hover .imgBox #phd {
+    font-size: 35px;
   }
 }
+
 /* ------------- */
 
   .container{
