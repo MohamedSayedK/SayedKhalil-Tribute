@@ -57,6 +57,18 @@ html{
     border-radius: 5px;
     background: #eee;
   }
+
+  h3, p{
+    font-family: 'Amiri', serif;
+  }
+
+  .hr {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 30%;
+}
   
   @media (max-width: 460px) {
     #main {
@@ -88,7 +100,7 @@ html{
   }
   
   #headline {
-    margin: 50px 0;
+    margin-top: 50px;
     text-align: center;
   }
   
@@ -114,6 +126,14 @@ html{
       text-align: left;
   }
 
+  .biography .hr{
+    align-items: center;
+  }
+
+  .biography .hr{
+    margin-bottom: 50px;
+  }
+
   .educationContainerMain{
     min-height: 100vh;
 
@@ -136,11 +156,13 @@ html{
     align-items: center;
 }
 
-.educationTitle{
+.title{
+  display: flex;
+  flex-direction: column;
   font-family: 'Amiri', serif;
   margin-top: 50px;
   text-align: center;
-
+  align-items: center;
 }
 
 .containerTest{
