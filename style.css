@@ -374,7 +374,7 @@ top: calc(50% - 75px);
   .timeline ul li:nth-child(odd)::before{
    content: '';
    position: absolute;
-   top: 24px;
+   top: 35px;
    right: -6px;
    width: 10px;
    height: 10px;
@@ -385,7 +385,7 @@ top: calc(50% - 75px);
   .timeline ul li:nth-child(even)::before{
     content: '';
     position: absolute;
-    top: 24px;
+    top: 35px;
     left: -4px;
     width: 10px;
     height: 10px;
@@ -393,7 +393,19 @@ top: calc(50% - 75px);
     border-radius: 50%;
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
   }
-  
+
+  .timeline ul li h3{
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .timeline ul li p{
+    margin: 10px 0 0;
+    padding: 0;
+  }
+
 
    /* .timeline ul li:nth-child(odd),
    .timeline ul li:nth-child(even) {
