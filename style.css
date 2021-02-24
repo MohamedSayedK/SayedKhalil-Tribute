@@ -5,15 +5,14 @@
     box-sizing: inherit;
 }
 
-html{
+  html{
     box-sizing: border-box;
 }
+
   body {
     font-size: 1.6rem;
     line-height: 1.5;
-    text-align: center;
     color: #333;
-    margin: 0;
   }
   
 #title{
@@ -76,6 +75,10 @@ html{
     }
   }
   
+  .biographyEducationSection{
+    text-align: center;
+  }
+
   img {
     max-width: 50%;
     display: block;
@@ -104,7 +107,7 @@ html{
     text-align: center;
   }
   
-  ul {
+  /* ul {
     max-width: 550px;
     margin: 0 auto 50px auto;
     text-align: left;
@@ -113,7 +116,7 @@ html{
   
   li {
     margin: 16px 0;
-  }
+  } */
   
   blockquote {
     font-style: italic;
@@ -316,7 +319,7 @@ top: calc(50% - 75px);
    }
 
    .positions ul{
-      max-width: 1000px;
+      max-width: 500px;
       margin: 0 auto 50px auto;
       text-align: left;
       line-height: 1.6;
@@ -325,3 +328,58 @@ top: calc(50% - 75px);
    .positions .hr{
      margin-bottom: 50px;
    }
+
+   .timeline{
+     position: relative;
+     margin: 50px auto;
+     padding: 40px 0;
+     width: 1000px;
+   }
+
+   .timeline:before{
+     content: '';
+     position: absolute;
+     left: 50%;
+     width: 2px;
+     height: 100%;
+     background: #c5c5c5;
+   }
+
+   .timeline ul{
+     margin: 0;
+     padding: 0;
+   }
+
+   .timeline ul li{
+    list-style: none;
+     position: relative;
+     width: 50%;
+     padding: 20px 40px;
+     box-sizing: border-box;
+   }
+
+   .timeline ul li:nth-child(odd){
+     float: left;
+     text-align: right;
+   }
+
+   .timeline ul li:nth-child(odd),
+   .timeline ul li:nth-child(even) {
+       width: 100%;
+       padding-left: 50px;
+       padding-bottom: 50px;
+   }
+
+   .timeline ul li:nth-child(odd):before,
+   .timeline ul li:nth-child(even):before {
+       top: -18px;
+       left: 16px;
+   } 
+   
+   .timeline ul li:nth-child(odd) .time,
+   .timeline ul li:nth-child(even) .time {
+       top: -30px;
+       left: 50px;
+       right: inherit;
+   }
+
