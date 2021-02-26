@@ -159,6 +159,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
 }
 
 .title{
@@ -245,6 +246,21 @@ top: calc(50% - 75px);
   }
 }
 
+@media screen and (max-width: 1072px){
+  .educationContainer .container .card:hover .imgBox{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1072px){
+  .educationContainer .container .card:hover .imgBox #dt {
+    font-size: 20px;
+  }
+}
+
+
+
 /* ------------- */
 
   .container{
@@ -255,6 +271,7 @@ top: calc(50% - 75px);
       flex-wrap: wrap;
       margin: 20px;
       padding: 20px 0;
+      margin-left: 50px;
   }
 
 
