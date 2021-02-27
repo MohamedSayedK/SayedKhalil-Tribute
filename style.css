@@ -481,6 +481,18 @@ top: calc(50% - 75px);
     font-size: 14px;
   }
 
+  .timeline ul li:nth-child(even) .time{
+    position: absolute;
+    top: 32px;
+    left: -165px;
+    margin: 0;
+    padding:  8px 16px;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    box-shadow:  0 0 0 3px grey;
+  }
+
 
   .timeline ul li:nth-child(odd) .time{
     position: absolute;
