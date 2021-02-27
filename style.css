@@ -127,6 +127,15 @@
     text-align: left;
   }
 
+  .title{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Amiri', serif;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+  }
+
   .biography{
       text-align: left;
   }
@@ -151,24 +160,15 @@
       margin-top: -100px;
   }
 
+   /* ----------- Education Cards ------------ */
+
   /* Testing grounds */
-
-
 
 .educationContainerTest{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-}
-
-.title{
-  display: flex;
-  flex-direction: column;
-  font-family: 'Amiri', serif;
-  margin-top: 50px;
-  text-align: center;
-  align-items: center;
 }
 
 .containerTest{
@@ -228,6 +228,54 @@ top: calc(50% - 75px);
   justify-content: center;
   align-items: center;
 }
+
+
+/* Cards Media Queries */
+
+/* @media (max-width: 9920px){
+
+  .educationContainer .container {
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .educationContainer .container .card {
+   max-width: 400px;
+   height: auto;
+   flex-direction: column;
+   background: transparent;
+   margin: -20px 0;
+  }
+
+  .educationContainer .container .card .imgBox{
+    position: relative;
+  }
+
+  .educationContainer .container .card .imgBox,.educationContainer .container .card:hover .imgBox{
+    width: 80%;
+    height: 200px;
+    top: 100px;
+    left: 10%;
+  }
+  .educationContainer .container .card:hover .imgBox{
+    top: 80px;
+  }
+  .educationContainer .container .card .imgBox h2,.educationContainer .container .card:hover .imgBox h2{
+    max-width: 100px;
+  }
+  .educationContainer .container .content{
+    position: relative;
+    width: 100%;
+    background: white;
+    box-shadow: none;
+    border-radius: 20px;
+    border-top: 100px solid white;
+  }
+} */
+
+
 
 @media screen and (max-width: 920px){
   .educationContainer .container .card .content p {
@@ -333,6 +381,9 @@ top: calc(50% - 75px);
        align-items: center;
    }
 
+   /* ----------------- Education Cards End ----------- */
+
+
    .positions ul{
       max-width: 1000px;
       margin: 0 auto 50px auto;
@@ -422,6 +473,28 @@ top: calc(50% - 75px);
     margin: 10px 0 0;
     padding: 0;
   }
+ /* COMPLETELY OPTIONAL FROM HERE ON */
+
+  .timeline ul li .time h4{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+
+
+  .timeline ul li:nth-child(odd) .time{
+    position: absolute;
+    top: 32px;
+    right: -165px;
+    margin: 0;
+    padding:  8px 16px;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    box-shadow:  0 0 0 3px grey;
+  }
+
+  /* ---------- OPTIONAL -------- */
 
 
    /* .timeline ul li:nth-child(odd),
