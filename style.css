@@ -506,26 +506,68 @@ top: calc(50% - 75px);
     box-shadow:  0 0 0 3px grey;
   }
 
-  /* ---------- OPTIONAL -------- */
+    /* ---------- OPTIONAL -------- */
+
+  @media (max-width:1000px){
+    .timeline{
+      width: 100%;
+    }
+  }
+
+  @media (max-width:767px){
+    .timeline{
+      width: 100%;
+    }
+
+    .timeline:before{
+      left: 20px;
+    }
+
+    .timeline li:nth-child(odd),
+    .timeline li:nth-child(even){
+      width: 100%;
+      text-align: left;
+      padding-left: 50px;
+      padding-bottom: 50px;
+    }
+
+    .timeline li:nth-child(odd):before,
+    .timeline li:nth-child(even):before{
+      top: -18px;
+      left: 16px;
+    }
+
+    .timeline li:nth-child(odd) .time,
+    .timeline li:nth-child(even) .time{
+      top: -30px;
+      left: 50px;
+      right: inherit;
+    }
+
+    .timeline ul li:nth-child(odd),
+    .timeline ul li:nth-child(even) {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+    
+
+    .timeline ul li:nth-child(odd):before,
+    .timeline ul li:nth-child(even):before {
+        top: -18px;
+        left: 16px;
+    } 
+    
+    .timeline ul li:nth-child(odd) .time,
+    .timeline ul li:nth-child(even) .time {
+        top: -23px;
+        left: 50px;
+        right: inherit;
+    }
+  }
 
 
-   /* .timeline ul li:nth-child(odd),
-   .timeline ul li:nth-child(even) {
-       width: 100%;
-       padding-left: 50px;
-       padding-bottom: 50px;
-   }
 
-   .timeline ul li:nth-child(odd):before,
-   .timeline ul li:nth-child(even):before {
-       top: -18px;
-       left: 16px;
-   } 
-   
-   .timeline ul li:nth-child(odd) .time,
-   .timeline ul li:nth-child(even) .time {
-       top: -30px;
-       left: 50px;
-       right: inherit;
-   }  */
+
 
