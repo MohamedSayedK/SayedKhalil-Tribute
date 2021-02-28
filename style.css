@@ -605,3 +605,45 @@ top: calc(50% - 75px);
     font-size: 1.7rem;
   }
 
+  .publications .article{
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(0.3px);
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .publications .article a{
+    color: black;
+    text-decoration: none;
+    font-size: 2.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .publications .article a:hover{
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    font-size: 2.3rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .publications .article .authors{
+    font-weight: bolder;
+
+  }
+
+  .publications .article .publicationInfo{
+    margin-top: 20px;
+  }
+
+  .publications .article .publicationInfo .journal{
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
+  .publications .article .publicationInfo .date{
+    font-size: 20px;
+  }
