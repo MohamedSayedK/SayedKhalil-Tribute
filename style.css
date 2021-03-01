@@ -483,7 +483,7 @@ top: calc(50% - 75px);
 
   .timeline ul li:nth-child(even) .time{
     position: absolute;
-    top: 32px;
+    top: 20px;
     left: -165px;
     margin: 0;
     padding:  8px 16px;
@@ -496,7 +496,7 @@ top: calc(50% - 75px);
 
   .timeline ul li:nth-child(odd) .time{
     position: absolute;
-    top: 32px;
+    top: 20px;
     right: -165px;
     margin: 0;
     padding:  8px 16px;
@@ -561,7 +561,7 @@ top: calc(50% - 75px);
     
     .timeline ul li:nth-child(odd) .time,
     .timeline ul li:nth-child(even) .time {
-        top: -23px;
+        top: -32px;
         left: 50px;
         right: inherit;
     }
