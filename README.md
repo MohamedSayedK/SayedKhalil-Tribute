@@ -7,4 +7,5 @@ Creating a portfolio page for Dr.Sayed Khalil
 -Added a Publications Page
 -Completed Main page
 -Completed Publications Articles
+-Added Footers to both pages and tooltips
  * Work in progress *
