@@ -486,25 +486,25 @@ top: calc(50% - 75px);
 
   .timeline ul li:nth-child(even) .time{
     position: absolute;
-    top: 20px;
-    left: -165px;
+    top: 8px;
+    left: -225px;
     margin: 0;
     padding:  8px 16px;
     color: white;
     border-radius: 18px;
-    box-shadow:  0 0 0 3px grey;
+    /* box-shadow:  0 0 0 3px grey; */
   }
 
 
   .timeline ul li:nth-child(odd) .time{
     position: absolute;
-    top: 20px;
-    right: -165px;
+    top: 8px;
+    right: -225px;
     margin: 0;
     padding:  8px 16px;
     color: white;
     border-radius: 18px;
-    box-shadow:  0 0 0 3px grey;
+    /* box-shadow:  0 0 0 3px grey; */
   }
 
     /* ---------- OPTIONAL -------- */
