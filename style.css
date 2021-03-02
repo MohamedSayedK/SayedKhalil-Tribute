@@ -656,4 +656,17 @@ top: calc(50% - 75px);
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    align-items: center;
+  }
+
+  footer ul i{
+    color: #333;
+  }
+
+  footer .contactMethods a{
+    padding: 8px;
+  }
+
+  .copyright{
+    font-size: 15px;
   }
