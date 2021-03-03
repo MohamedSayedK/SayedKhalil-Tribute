@@ -654,6 +654,7 @@ top: calc(50% - 75px);
 
   .footerContent{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     margin: 20px;
     align-items: center;
