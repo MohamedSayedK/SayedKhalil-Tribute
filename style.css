@@ -633,6 +633,7 @@ top: calc(50% - 75px);
 
   .publications .article .authors{
     font-weight: bolder;
+    font-size: 20px;
 
   }
 
@@ -666,6 +667,7 @@ top: calc(50% - 75px);
 
   footer .contactMethods a{
     padding: 8px;
+    color: #333;
   }
 
   .copyright{
