@@ -695,6 +695,14 @@ top: calc(50% - 75px);
     user-select: none;
   }
 
-  .AuthorsButton:hover{
-    color: rgb(95, 95, 95);
+  .publications .article .AuthorsButton{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .publications .article .AuthorsButton:hover{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: bolder;
   }
