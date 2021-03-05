@@ -688,3 +688,13 @@ top: calc(50% - 75px);
   }
 
   /* Authors list */
+
+  main#blur .active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .AuthorsButton:hover{
+    color: rgb(95, 95, 95);
+  }
