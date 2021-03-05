@@ -568,6 +568,9 @@ top: calc(50% - 75px);
     }
   }
 
+  .education{
+    margin-top: 100px;
+  }
 
   .educationContent .experienceList li{
     padding: 10px;
