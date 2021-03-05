@@ -9,4 +9,5 @@ Creating a portfolio page for Dr.Sayed Khalil
 -Completed Publications Articles
 -Added Footers to both pages and tooltips
 -Revamped Education from cards to a list
+-worked around the popup
  * Work in progress *
