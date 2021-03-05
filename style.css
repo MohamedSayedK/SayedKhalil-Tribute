@@ -718,10 +718,23 @@ top: calc(50% - 75px);
     background: white;
     z-index: 50;
     border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    width:70%
+  }
+
+  #popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    width:70%
   }
 
   #popup p{
     margin-top: 20px;
+    font-size: 20px;
   }
 
   .popupheader{
