@@ -10,4 +10,5 @@ Creating a portfolio page for Dr.Sayed Khalil
 -Added Footers to both pages and tooltips
 -Revamped Education from cards to a list
 -worked around the popup
+-Added the popsup but still need to fix some bugs
  * Work in progress *
