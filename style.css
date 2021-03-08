@@ -685,6 +685,7 @@ top: calc(50% - 75px);
 
   .copyright{
     font-size: 15px;
+    margin-top: 10px;
   }
 
   .email{
@@ -725,20 +726,20 @@ top: calc(50% - 75px);
 
  /* ------------ popup 1 -------------- */
   #popup{
-    position: absolute;
+    position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.30);
     background: white;
-    z-index: 5000;
     border-radius: 10px;
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
-    width:70%
+    width:70%;
+    z-index: 2;
   }
 
   #popup.active{
@@ -746,7 +747,8 @@ top: calc(50% - 75px);
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
-    width:70%
+    width:70%;
+    z-index: 2;
   }
 
   #popup p{
@@ -786,7 +788,7 @@ top: calc(50% - 75px);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
-    width:70%
+    width:70%;
   }
 
   #popup2.active{
