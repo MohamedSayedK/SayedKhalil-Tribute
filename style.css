@@ -668,8 +668,8 @@ top: calc(50% - 75px);
 
   .footerContent{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     margin: 20px;
     align-items: center;
   }
@@ -686,6 +686,18 @@ top: calc(50% - 75px);
   .copyright{
     font-size: 15px;
   }
+
+  .email{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .email p {
+    font-weight: bold;
+  }
+
+
 
   /* Authors list */
 
